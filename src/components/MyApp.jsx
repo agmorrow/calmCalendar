@@ -7,8 +7,7 @@ function MyApp() {
   const [value, onChange] = useState(new Date());
 
   return (
-    <>
-    <div>
+    <div className="container p-4 flex items-center justify-center shadow-lg rounded-lg bg-white h-1/3 mb-auto">
       <div>
       <div>
         <img src={Calm} alt="calm logo" className='max-w-[100px]' />
@@ -29,7 +28,6 @@ function MyApp() {
       <Calendar onChange={onChange} value={value} />
       </div>
     </div>
-    </>
   );
 }
 export default MyApp;
