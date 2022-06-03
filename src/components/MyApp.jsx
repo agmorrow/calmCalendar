@@ -6,7 +6,7 @@ import Calm from "../assets/calm_logo.png";
 function MyApp () {
   const[value, onChange] = useState(new Date ());
   return (
-    <div className='w-full text-white my-24'>
+    <div className='w-[1000px] justify-center text-white my-24'>
       
 
       <div className='max-w-[1240px] mx-auto py-12'>
